@@ -1,2 +1,2 @@
 # SQL-Portfolio
-Portfolio of SQL
+Portfolio of SQL Projects and Examples.
