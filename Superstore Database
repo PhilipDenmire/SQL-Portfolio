@@ -33,13 +33,13 @@ VALUES
 SELECT item_name, price FROM superstore
 ORDER BY price;
 
-/* Wrote a SQL query that will show the average of the item prices. */
+/* 2. Wrote a SQL query that will show the average of the item prices. */
 SELECT AVG(price) FROM superstore;
 
-/* Wrote a SQL query that will show the sum of the price for items in the category of "Kitchen Supplies". */
+/* 3. Wrote a SQL query that will show the sum of the price for items in the category of "Kitchen Supplies". */
 SELECT SUM(price) FROM superstore
 WHERE category = "Kitchen Supplies";
 
-/* Wrote a query to find the total value of current stock. */
+/* 4. Wrote a query to find the total value of current stock. */
 SELECT SUM(price*stock_quantity) AS inventory_value FROM superstore;
 
